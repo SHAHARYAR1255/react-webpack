@@ -1,5 +1,6 @@
-const chalk = require('chalk');
-const ERR_NO_ENV_FLAG = chalk.red(
+// const chalk = require('chalk');
+// import chalk from 'chalk';
+const ERR_NO_ENV_FLAG = console.log(
   `You must pass an --env.env flag into your build for webpack to work!`
 );
 
